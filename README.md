@@ -22,15 +22,18 @@ A lightweight calculator app made using JavaScript. It is a responsive, user-fri
 2. Open `index.html` in your browser
 3. Use either mouse or keyboard to operate
 
-## 📁 File Structure
 
-📁 JavaScript Calc/
+## 📁 Folder Structure
 
-js-calculator/
+```
+📁 JavaScript Calc//
 ├── index.html          # Main calculator UI
 ├── style.css           # CSS styling for buttons, layout
 ├── script.js           # JavaScript logic
 └── README.md           # Documentation
+```
+
+---
 
 
 
