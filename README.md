@@ -25,6 +25,7 @@ A lightweight calculator app made using JavaScript. It is a responsive, user-fri
 ## 📁 File Structure
 
 📁 JavaScript Calc/
+
 ┣ 📄 index.html
 ┣ 📄 style.css
 ┣ 📄 script.js
