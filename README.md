@@ -14,7 +14,8 @@ A lightweight calculator app made using JavaScript. It is a responsive, user-fri
 - Responsive layout
 
 ## 📷 Demo
-(Add screenshot or GIF if available)
+<img width="1208" height="608" alt="Screenshot 2025-07-22 033157" src="https://github.com/user-attachments/assets/87ded73e-29a1-4889-85c2-825afd2826b5" />
+
 
 ## 🛠️ How to Use
 1. Clone or download the repo
