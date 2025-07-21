@@ -26,10 +26,13 @@ A lightweight calculator app made using JavaScript. It is a responsive, user-fri
 
 📁 JavaScript Calc/
 
-┣ 📄 index.html
-┣ 📄 style.css
-┣ 📄 script.js
-┗ 📄 README.md
+js-calculator/
+├── index.html          # Main calculator UI
+├── style.css           # CSS styling for buttons, layout
+├── script.js           # JavaScript logic
+└── README.md           # Documentation
+
+
 
 
 
