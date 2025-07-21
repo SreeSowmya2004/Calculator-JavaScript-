@@ -34,6 +34,11 @@ A lightweight calculator app made using JavaScript. It is a responsive, user-fri
 ```
 
 ---
+## 🙋‍♀️ Author
+
+**C. Sree Sowmya**  
+📧 sreesowmya2k4@gmail.com  
+🔗 [GitHub](https://github.com/SreeSowmya2004) | [LinkedIn](https://linkedin.com/in/sree-sowmya-0b6742283)
 
 
 
