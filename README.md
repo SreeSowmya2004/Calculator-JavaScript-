@@ -1,5 +1,4 @@
-# Calculator-JavaScript-
-# 🧮 JavaScript Calculator
+# 🧮 Scientific Calculator-JavaScript-
 
 A lightweight calculator app made using JavaScript. It is a responsive, user-friendly calculator built using HTML, CSS, and JavaScript. This calculator supports basic arithmetic operations and advanced functions like percentage and square root. Designed with simplicity for real-time computation.
 
