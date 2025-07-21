@@ -1,0 +1,124 @@
+:root {
+  --bg-color: #121212;
+  --btn-color: #2a2a2a;
+  --btn-hover: #3c3c3c;
+  --text-color: white;
+  --accent-color: #f57c00;
+  --equal-color: #4caf50;
+  --clear-color: #d32f2f;
+}
+
+body.light {
+  --bg-color: #f4f4f4;
+  --btn-color: #e0e0e0;
+  --btn-hover: #d5d5d5;
+  --text-color: #000;
+  --accent-color: #ff9800;
+  --equal-color: #66bb6a;
+  --clear-color: #ef5350;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  transition: background 0.3s, color 0.3s;
+}
+
+.calculator {
+  background: var(--btn-color);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  width: 350px;
+}
+
+.toggle-mode {
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.toggle-mode button {
+  background: transparent;
+  color: var(--text-color);
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.display {
+  background: #000;
+  color: #0f0;
+  font-size: 2.2rem;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: right;
+  margin-bottom: 10px;
+  overflow-x: auto;
+}
+
+.history {
+  font-size: 0.9rem;
+  text-align: right;
+  color: #aaa;
+  height: 20px;
+  margin-bottom: 10px;
+  overflow-x: auto;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+button {
+  padding: 18px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 15px;
+  background: var(--btn-color);
+  color: var(--text-color);
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s, box-shadow 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+button:hover {
+  background: var(--btn-hover);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+button:active {
+  transform: scale(0.96);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.operator {
+  background: var(--accent-color);
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(245, 124, 0, 0.6);
+}
+
+.equal {
+  background: var(--equal-color);
+  color: #fff;
+  grid-column: span 2;
+  box-shadow: 0 4px 10px rgba(76, 175, 80, 0.6);
+}
+
+.clear {
+  background: var(--clear-color);
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(211, 47, 47, 0.6);
+}
+
+.zero {
+  grid-column: span 2;
+}

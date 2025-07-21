@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Scientific Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark">
+
+  <div class="calculator">
+    <div class="toggle-mode">
+      <button onclick="toggleMode()">🌗 Toggle Theme</button>
+    </div>
+    <div class="history" id="history"></div>
+    <div class="display" id="display">0</div>
+
+    <!-- Scientific Buttons -->
+    <div class="buttons">
+      <button onclick="append('Math.PI')">π</button>
+      <button onclick="advanced('sqrt')">√</button>
+      <button onclick="advanced('square')">x²</button>
+      <button onclick="advanced('reciprocal')">1/x</button>
+
+      <button onclick="advanced('sin')">sin</button>
+      <button onclick="advanced('cos')">cos</button>
+      <button onclick="advanced('tan')">tan</button>
+      <button onclick="advanced('log')">log</button>
+
+      <button class="clear" onclick="clearDisplay()">C</button>
+      <button onclick="deleteLast()">⌫</button>
+      <button onclick="append('%')">%</button>
+      <button class="operator" onclick="append('/')">÷</button>
+
+      <button onclick="append('7')">7</button>
+      <button onclick="append('8')">8</button>
+      <button onclick="append('9')">9</button>
+      <button class="operator" onclick="append('*')">×</button>
+
+      <button onclick="append('4')">4</button>
+      <button onclick="append('5')">5</button>
+      <button onclick="append('6')">6</button>
+      <button class="operator" onclick="append('-')">−</button>
+
+      <button onclick="append('1')">1</button>
+      <button onclick="append('2')">2</button>
+      <button onclick="append('3')">3</button>
+      <button class="operator" onclick="append('+')">+</button>
+
+      <button onclick="toggleSign()">±</button>
+      <button class="zero" onclick="append('0')">0</button>
+      <button onclick="append('.')">.</button>
+      <button class="equal" onclick="calculate()">=</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
