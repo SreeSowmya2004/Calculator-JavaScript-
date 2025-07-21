@@ -34,7 +34,7 @@ A lightweight calculator app made using JavaScript. It is a responsive, user-fri
 ```
 
 ---
-## 🙋‍♀️ Author
+## 🙋‍♀️ Let's Connect
 
 **C. Sree Sowmya**  
 📧 sreesowmya2k4@gmail.com  
